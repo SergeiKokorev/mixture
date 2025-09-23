@@ -1,0 +1,752 @@
+[
+   {
+      "symbol": "C4H8",
+      "name": "1-Butene",
+      "Rg": 148.2,
+      "pc": 4005100.0,
+      "Tc": 419.3,
+      "rhoc": 237.9,
+      "omega": 0.192,
+      "sigma": 4.678,
+      "epsilon_kb": 331.4,
+      "lam": 0.0102
+   },
+   {
+      "symbol": "C3H6O",
+      "name": "Acetone",
+      "Rg": 143.2,
+      "pc": 4700000.0,
+      "Tc": 508,
+      "rhoc": 273,
+      "omega": 0.307,
+      "lam": 0.015
+   },
+   {
+      "symbol": "N2;O2;H2O;CO2",
+      "name": "Air",
+      "Rg": 287,
+      "pc": 3786000.0,
+      "Tc": 132.5,
+      "rhoc": 342.7,
+      "omega": 0.034,
+      "lam": 0.02433
+   },
+   {
+      "symbol": "NH3",
+      "name": "Ammonia",
+      "Rg": 488.2,
+      "pc": 1136300.0,
+      "Tc": 405.6,
+      "rhoc": 233.3,
+      "omega": 0.256,
+      "lam": 0.0228
+   },
+   {
+      "symbol": "Ar",
+      "name": "Argon",
+      "Rg": 208.1,
+      "pc": 4863000.0,
+      "Tc": 150.7,
+      "rhoc": 536,
+      "omega": -0.002,
+      "lam": 0.01645
+   },
+   {
+      "symbol": "C6H6",
+      "name": "Benzene",
+      "pc": 4894000.0,
+      "Tc": 562,
+      "rhoc": 340.8,
+      "omega": 0.211,
+      "Rg": 106.4,
+      "lam": 0.00914
+   },
+   {
+      "symbol": "CO2",
+      "name": "CarboneDioxide",
+      "pc": 7377300.0,
+      "Tc": 304.1,
+      "rhoc": 467.6,
+      "omega": 0.224,
+      "Rg": 188.9,
+      "lam": 0.01511
+   },
+   {
+      "symbol": "CO",
+      "name": "CarboneMonoxide",
+      "pc": 3494000.0,
+      "Tc": 132.9,
+      "rhoc": 303.9,
+      "omega": 0.05,
+      "Rg": 296.8,
+      "lam": 0.024
+   },
+   {
+      "symbol": "COS",
+      "name": "CarbonylSulfide",
+      "pc": 6370000.0,
+      "Tc": 378.8,
+      "rhoc": 445.2,
+      "omega": 0.098,
+      "Rg": 138.4
+   },
+   {
+      "symbol": "C4H8",
+      "name": "2-Butene",
+      "pc": 4225500.0,
+      "Tc": 435.8,
+      "rhoc": 238.1,
+      "omega": 0.202,
+      "Rg": 148.2
+   },
+   {
+      "symbol": "C6H2",
+      "name": "CycloHexane",
+      "pc": 4082400.0,
+      "Tc": 554,
+      "rhoc": 271.3,
+      "omega": 0.209,
+      "Rg": 98.8
+   },
+   {
+      "symbol": "C5H10",
+      "name": "Cyclopentane",
+      "pc": 4571200.0,
+      "Tc": 512,
+      "rhoc": 267.9,
+      "omega": 0.201,
+      "Rg": 118.6,
+      "lam": 0.009556
+   },
+   {
+      "symbol": "C3H6",
+      "name": "CycloPropane",
+      "pc": 5579700.0,
+      "Tc": 398.3,
+      "rhoc": 258.5,
+      "omega": 0.131,
+      "Rg": 197.6
+   },
+   {
+      "symbol": "C8H24O4Si4",
+      "name": "D4",
+      "pc": 1347200.0,
+      "Tc": 586,
+      "rhoc": 309.4,
+      "omega": 0.598,
+      "Rg": 28.03
+   },
+   {
+      "symbol": "C10H30O5Si5",
+      "name": "D5",
+      "pc": 1077760.0,
+      "Tc": 618,
+      "rhoc": 303.3,
+      "omega": 0.631,
+      "Rg": 22.42
+   },
+   {
+      "symbol": "C12H36O6Si6",
+      "name": "D6",
+      "pc": 961000.0,
+      "Tc": 646,
+      "rhoc": 279.1,
+      "omega": 0.736,
+      "Rg": 18.69
+   },
+   {
+      "symbol": "D2",
+      "name": "Deuterium",
+      "pc": 1679600.0,
+      "Tc": 38.3,
+      "rhoc": 69.4,
+      "omega": -0.136,
+      "Rg": 2064
+   },
+   {
+      "symbol": "C2Cl2H4",
+      "name": "Dichloroethene",
+      "pc": 5227600.0,
+      "Tc": 562,
+      "rhoc": 428.5,
+      "omega": 0.269,
+      "Rg": 84
+   },
+   {
+      "symbol": "C4H10O",
+      "name": "DiethylEther",
+      "pc": 3649000.0,
+      "Tc": 466.7,
+      "rhoc": 264,
+      "omega": 0.282,
+      "Rg": 112.2
+   },
+   {
+      "symbol": "C3H6O3",
+      "name": "DimethylCarbonate",
+      "pc": 4908800.0,
+      "Tc": 557,
+      "rhoc": 360.3,
+      "omega": 0.346,
+      "Rg": 92.3
+   },
+   {
+      "symbol": "C2H6O",
+      "name": "DimethylEther",
+      "pc": 5336800.0,
+      "Tc": 400.4,
+      "rhoc": 273.6,
+      "omega": 0.196,
+      "Rg": 108.5
+   },
+   {
+      "symbol": "C2H6",
+      "name": "Ethane",
+      "pc": 4872200.0,
+      "Tc": 305.3,
+      "rhoc": 206.2,
+      "omega": 0.099,
+      "Rg": 276.5,
+      "lam": 0.01991
+   },
+   {
+      "symbol": "C2H6O",
+      "name": "Ethanol",
+      "pc": 6268000.0,
+      "Tc": 515,
+      "rhoc": 273.2,
+      "omega": 0.644,
+      "Rg": 180.5,
+      "lam": 0.0145
+   },
+   {
+      "symbol": "C8H10",
+      "name": "EthylBenzene",
+      "pc": 3622000.0,
+      "Tc": 617,
+      "rhoc": 291,
+      "omega": 0.304,
+      "Rg": 78.3,
+      "lam": 0.00901
+   },
+   {
+      "symbol": "C2H4",
+      "name": "Ethylene",
+      "pc": 5041800.0,
+      "Tc": 282.4,
+      "rhoc": 214.2,
+      "omega": 0.087,
+      "Rg": 296.4
+   },
+   {
+      "symbol": "C2H4O",
+      "name": "EthyleneOxide",
+      "pc": 7304700.0,
+      "Tc": 468.9,
+      "rhoc": 315.9,
+      "omega": 0.21,
+      "Rg": 188.7
+   },
+   {
+      "symbol": "F2",
+      "name": "Fluorine",
+      "pc": 5172400.0,
+      "Tc": 144.4,
+      "rhoc": 593,
+      "omega": 0.045,
+      "Rg": 218.8
+   },
+   {
+      "symbol": "D2O",
+      "name": "HeavyWater",
+      "pc": 2166200.0,
+      "Tc": 644,
+      "rhoc": 356,
+      "omega": 0.364,
+      "Rg": 415.2,
+      "lam": 0.01751
+   },
+   {
+      "symbol": "He",
+      "name": "Helium",
+      "pc": 227600.0,
+      "Tc": 5.2,
+      "rhoc": 72.6,
+      "omega": -0.384,
+      "Rg": 2077,
+      "lam": 0.1524
+   },
+   {
+      "symbol": "C2F3H3O",
+      "name": "HFE143m",
+      "pc": 3635000.0,
+      "Tc": 377.9,
+      "rhoc": 465,
+      "omega": 0.289,
+      "Rg": 83.1
+   },
+   {
+      "symbol": "H2",
+      "name": "Hydrogen",
+      "pc": 1296400.0,
+      "Tc": 33.1,
+      "rhoc": 31.26,
+      "omega": -0.219,
+      "Rg": 4124,
+      "lam": 0.1819
+   },
+   {
+      "symbol": "ClH",
+      "name": "HydrogenChloride",
+      "pc": 8291500.0,
+      "Tc": 324.6,
+      "rhoc": 430.2,
+      "omega": 0.13,
+      "Rg": 228
+   },
+   {
+      "symbol": "H2S",
+      "name": "HydrogenSulfide",
+      "pc": 9000000.0,
+      "Tc": 373.1,
+      "rhoc": 347.3,
+      "omega": 0.1,
+      "Rg": 244
+   },
+   {
+      "symbol": "C4H10",
+      "name": "IsoButane",
+      "pc": 3629000.0,
+      "Tc": 407.8,
+      "rhoc": 225.5,
+      "omega": 0.184,
+      "Rg": 143.1,
+      "lam": 0.01615
+   },
+   {
+      "symbol": "C4H8",
+      "name": "IsoButene",
+      "pc": 4009800.0,
+      "Tc": 418.1,
+      "rhoc": 234,
+      "omega": 0.193,
+      "Rg": 148.2
+   },
+   {
+      "symbol": "C6H4",
+      "name": "IsoHexane",
+      "pc": 3040000.0,
+      "Tc": 497.7,
+      "rhoc": 234,
+      "omega": 0.28,
+      "Rg": 96.5
+   },
+   {
+      "symbol": "C5H2",
+      "name": "IsoPentane",
+      "pc": 3378000.0,
+      "Tc": 460.4,
+      "rhoc": 236,
+      "omega": 0.227,
+      "Rg": 115.2,
+      "lam": 0.01363
+   },
+   {
+      "symbol": "Kr",
+      "name": "Krypton",
+      "pc": 5525000.0,
+      "Tc": 209.5,
+      "rhoc": 909,
+      "omega": -0.001,
+      "Rg": 99.2
+   },
+   {
+      "symbol": "C8H10",
+      "name": "m-Xylene",
+      "pc": 3534600.0,
+      "Tc": 617,
+      "rhoc": 282.9,
+      "omega": 0.326,
+      "Rg": 78.3,
+      "lam": 0.00875
+   },
+   {
+      "symbol": "C10H30O3Si4",
+      "name": "MD2M",
+      "pc": 1144000.0,
+      "Tc": 599,
+      "rhoc": 268.4,
+      "omega": 0.635,
+      "Rg": 26.76
+   },
+   {
+      "symbol": "C12H36O4Si5",
+      "name": "MD3M",
+      "pc": 9539500.0,
+      "Tc": 628,
+      "rhoc": 269.4,
+      "omega": 0.73,
+      "Rg": 21.61
+   },
+   {
+      "symbol": "C14H42O5Si6",
+      "name": "MD4M",
+      "pc": 8285600.0,
+      "Tc": 653,
+      "rhoc": 261.6,
+      "omega": 0.8,
+      "Rg": 18.11
+   },
+   {
+      "symbol": "CH4",
+      "name": "Methane",
+      "pc": 4599200.0,
+      "Tc": 190.6,
+      "rhoc": 162.7,
+      "omega": 0.011,
+      "Rg": 518,
+      "lam": 0.03299
+   },
+   {
+      "symbol": "CH4O",
+      "name": "Methanol",
+      "pc": 8215900.0,
+      "Tc": 512,
+      "rhoc": 273,
+      "omega": 0.572,
+      "Rg": 259.5,
+      "lam": 14.42
+   },
+   {
+      "symbol": "C9H34O2",
+      "name": "MethylLinoleate",
+      "pc": 1341000.0,
+      "Tc": 799,
+      "rhoc": 238.1,
+      "omega": 0.805,
+      "Rg": 28.24
+   },
+   {
+      "symbol": "C9H32O2",
+      "name": "MethylLinolenate",
+      "pc": 1369000.0,
+      "Tc": 772,
+      "rhoc": 247.8,
+      "omega": 1.143,
+      "Rg": 28.43
+   },
+   {
+      "symbol": "C9H36O2",
+      "name": "MethylOleate",
+      "pc": 1246000.0,
+      "Tc": 782,
+      "rhoc": 241,
+      "omega": 0.906,
+      "Rg": 28.04
+   },
+   {
+      "symbol": "C7H34O2",
+      "name": "MethylPalmitate",
+      "pc": 1350000.0,
+      "Tc": 755,
+      "rhoc": 242.6,
+      "omega": 0.91,
+      "Rg": 30.74
+   },
+   {
+      "symbol": "C9H38O2",
+      "name": "MethylStearate",
+      "pc": 1239000.0,
+      "Tc": 775,
+      "rhoc": 237.1,
+      "omega": 1.018,
+      "Rg": 27.85
+   },
+   {
+      "symbol": "C6H8OSi2",
+      "name": "MM",
+      "pc": 1939000.0,
+      "Tc": 519,
+      "rhoc": 258.2,
+      "omega": 0.418,
+      "Rg": 51.2
+   },
+   {
+      "symbol": "C4H10",
+      "name": "n-Butane",
+      "pc": 3796000.0,
+      "Tc": 425.1,
+      "rhoc": 228,
+      "omega": 0.201,
+      "Rg": 143.1,
+      "lam": 0.01795
+   },
+   {
+      "symbol": "C10H22",
+      "name": "n-Decane",
+      "pc": 2103000.0,
+      "Tc": 618,
+      "rhoc": 233.3,
+      "omega": 0.488,
+      "Rg": 58.4,
+      "lam": 0.01012
+   },
+   {
+      "symbol": "C12H26",
+      "name": "n-Dodecane",
+      "pc": 1817000.0,
+      "Tc": 658,
+      "rhoc": 226.5,
+      "omega": 0.574,
+      "Rg": 48.81,
+      "lam": 0.00946
+   },
+   {
+      "symbol": "C7H6",
+      "name": "n-Heptane",
+      "pc": 2736000.0,
+      "Tc": 540,
+      "rhoc": 232,
+      "omega": 0.349,
+      "Rg": 83,
+      "lam": 0.01305
+   },
+   {
+      "symbol": "C6H4",
+      "name": "n-Hexane",
+      "pc": 3044100.0,
+      "Tc": 508,
+      "rhoc": 233.2,
+      "omega": 0.3,
+      "Rg": 96.5,
+      "lam": 0.01499
+   },
+   {
+      "symbol": "C9H20",
+      "name": "n-Nonane",
+      "pc": 2281000.0,
+      "Tc": 595,
+      "rhoc": 232.1,
+      "omega": 0.443,
+      "Rg": 64.8,
+      "lam": 0.01132
+   },
+   {
+      "symbol": "C8H8",
+      "name": "n-Octane",
+      "pc": 2483600.0,
+      "Tc": 569,
+      "rhoc": 232,
+      "omega": 0.398,
+      "Rg": 72.8,
+      "lam": 0.01199
+   },
+   {
+      "symbol": "C5H12",
+      "name": "n-Pentane",
+      "pc": 3367500.0,
+      "Tc": 469.7,
+      "rhoc": 232,
+      "omega": 0.251,
+      "Rg": 115.2,
+      "lam": 0.01577
+   },
+   {
+      "symbol": "C3H8",
+      "name": "n-Propane",
+      "pc": 4251200.0,
+      "Tc": 369.9,
+      "rhoc": 220.5,
+      "omega": 0.152,
+      "Rg": 188.6,
+      "lam": 0.01982
+   },
+   {
+      "symbol": "C11H24",
+      "name": "n-Undecane",
+      "pc": 1990400.0,
+      "Tc": 639,
+      "rhoc": 236.8,
+      "omega": 0.539,
+      "Rg": 53.2
+   },
+   {
+      "symbol": "Ne",
+      "name": "Neon",
+      "pc": 2661600.0,
+      "Tc": 44.4,
+      "rhoc": 486.3,
+      "omega": -0.035,
+      "Rg": 412
+   },
+   {
+      "symbol": "C5H2",
+      "name": "Neopentane",
+      "pc": 3196000.0,
+      "Tc": 433.7,
+      "rhoc": 235.9,
+      "omega": 0.196,
+      "Rg": 115.2
+   },
+   {
+      "symbol": "N2",
+      "name": "Nitrogen",
+      "pc": 3395800.0,
+      "Tc": 126.2,
+      "rhoc": 313.3,
+      "omega": 0.037,
+      "Rg": 296.8,
+      "lam": 0.02679
+   },
+   {
+      "symbol": "N2O",
+      "name": "NitrousOxide",
+      "pc": 7245000.0,
+      "Tc": 309.5,
+      "rhoc": 452,
+      "omega": 0.161,
+      "Rg": 188.9
+   },
+   {
+      "symbol": "C6F2O",
+      "name": "Novec649",
+      "pc": 1869000.0,
+      "Tc": 441.8,
+      "rhoc": 607,
+      "omega": 0.471,
+      "Rg": 26.31
+   },
+   {
+      "symbol": "C8H10",
+      "name": "o-Xylene",
+      "pc": 3737500.0,
+      "Tc": 630,
+      "rhoc": 285,
+      "omega": 0.312,
+      "Rg": 78.3,
+      "lam": 0.01463
+   },
+   {
+      "symbol": "o-D2",
+      "name": "OrthoDeuterium",
+      "pc": 1679600.0,
+      "Tc": 38.3,
+      "rhoc": 69.4,
+      "omega": -0.136,
+      "Rg": 2064
+   },
+   {
+      "symbol": "o-H2",
+      "name": "OrthoHydrogen",
+      "pc": 1310700.0,
+      "Tc": 33.2,
+      "rhoc": 31.14,
+      "omega": -0.219,
+      "Rg": 4124
+   },
+   {
+      "symbol": "O2",
+      "name": "Oxygen",
+      "pc": 5043000.0,
+      "Tc": 154.6,
+      "rhoc": 436.1,
+      "omega": 0.022,
+      "Rg": 259.8,
+      "lam": 0.02738
+   },
+   {
+      "symbol": "C8H10",
+      "name": "p-Xylen",
+      "pc": 3531500.0,
+      "Tc": 616,
+      "rhoc": 286,
+      "omega": 0.324,
+      "Rg": 78.3,
+      "lam": 0.01149
+   },
+   {
+      "symbol": "C3H6",
+      "name": "Propelene",
+      "pc": 4555000.0,
+      "Tc": 364.2,
+      "rhoc": 229.6,
+      "omega": 0.146,
+      "Rg": 197.6,
+      "lam": 0.0185
+   },
+   {
+      "symbol": "C3H4",
+      "name": "Propyne",
+      "pc": 5626000.0,
+      "Tc": 402.4,
+      "rhoc": 244.9,
+      "omega": 0.204,
+      "Rg": 207.5
+   },
+   {
+      "symbol": "O2S",
+      "name": "SulfurDioxide",
+      "pc": 7886600.0,
+      "Tc": 430.6,
+      "rhoc": 525,
+      "omega": 0.256,
+      "Rg": 129.8
+   },
+   {
+      "symbol": "F6S",
+      "name": "SulfurHexafluoride",
+      "pc": 3755000.0,
+      "Tc": 318.7,
+      "rhoc": 742,
+      "omega": 0.21,
+      "Rg": 56.9,
+      "lam": 13.98
+   },
+   {
+      "symbol": "C7H8",
+      "name": "Toluene",
+      "pc": 4126000.0,
+      "Tc": 592,
+      "rhoc": 292,
+      "omega": 0.266,
+      "Rg": 90.2,
+      "lam": 0.01179
+   },
+   {
+      "symbol": "C4H8",
+      "name": "trans-2-Butene",
+      "pc": 4027300.0,
+      "Tc": 428.6,
+      "rhoc": 236.4,
+      "omega": 0.21,
+      "Rg": 148.2
+   },
+   {
+      "symbol": "H2O",
+      "name": "Water",
+      "pc": 2206400.0,
+      "Tc": 647,
+      "rhoc": 322,
+      "omega": 0.344,
+      "Rg": 461.5,
+      "lam": 0.01941
+   },
+   {
+      "symbol": "Xe",
+      "name": "Xenon",
+      "pc": 5842000.0,
+      "Tc": 289.7,
+      "rhoc": 1103,
+      "omega": 0.004,
+      "Rg": 63.3
+   },
+   {
+      "symbol": "CH4;C2H6;C3H4",
+      "name": "NaturalGas",
+      "pc": 4666900.0,
+      "Tc": 208,
+      "rhoc": 167.6,
+      "omega": 0.0263,
+      "Rg": 518.28
+   }
+]
