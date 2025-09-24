@@ -10,12 +10,14 @@ PYTHON_PATH = os.path.abspath(os.path.join(
 sys.path.append(PYTHON_PATH)
 
 
-from datamodels.properties import *
+from models.properties import *
 
 
 if __name__ == "__main__":
 
     ref = Reference(326.15, 7344000)
+    print(ref, end="\n\n")
+    ref.Tref = 288.15
     print(ref, end="\n\n")
     transport = Transport(1e-6, 0.125)
     print(transport)

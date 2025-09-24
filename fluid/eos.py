@@ -12,7 +12,19 @@ sys.path.append(PYTHON_PATH)
 from fluid.const import R
 
 
-def redlich_kwong(T: float, P: float, ys: List[float], Tcs: List[float], Pcs: List[float], MWs: List[float], ws: List[float], vcs: List[float]=None, k_ij:List[List[float]]=None, eos: str="standard") -> Tuple[float]:
+def __check_args__(args):
+    if isinstance(args, float | int):
+        return [args]
+    elif hasattr(args, "__iter__"):
+        for arg in args:
+            arg = [arg]
+    else:
+        raise ValueError(f"Arguments must be int, float, list or tuple type. Give {type(args)}")
+    return args
+
+
+
+def redlich_kwong(T: float, P: float, ys: List[float], Tcs: List[float], Pcs: List[float], MWs: List[float], ws: List[float], vcs: List[float]=None, /, k_ij:List[List[float]]=None, eos: str="standard") -> Tuple[float]:
 
     """
     Computes Density, Compressibility, Acentric Factor of the mixture
@@ -85,7 +97,7 @@ def redlich_kwong(T: float, P: float, ys: List[float], Tcs: List[float], Pcs: Li
     
 
 
-def peng_robinson(T: float, P: float, ys:List[float], Tcs: List[float], Pcs: List[float], MWs: List[float], ws: List[float], k_ij:List[List[float]]=None) -> Tuple[float]:
+def peng_robinson(T: float, P: float, ys:List[float], Tcs: List[float], Pcs: List[float], MWs: List[float], ws: List[float], /, k_ij:List[List[float]]=None) -> Tuple[float]:
 
     """
     Computes Density, Compressibility, Acentric Factor of the mixture

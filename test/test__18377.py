@@ -11,7 +11,7 @@ PYTHON_PATH = os.path.abspath(os.path.join(
 ))
 sys.path.append(PYTHON_PATH)
 
-import fluid.mix_eos as eos
+import fluid.eos as eos
 import fluid.mixing as mixing
 import fluid.nasa as nasa
 
