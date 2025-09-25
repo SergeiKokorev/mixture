@@ -118,6 +118,7 @@ if __name__ == "__main__":
     
     Tc, Pc, Vc, rhoc, Zc, omega = mixing.prausnitz_gunn(ys, Tcs, Vcs, ws, MWs, Tc_method="binary", Vc_method="binary").values()
     MW = sum(ys * MWs)
+    Rg = R / MW
 
     print("Solving ctirical point")
     print(f"\t{mixture.Tc = :.2f} : {Tc = :.2f}")
@@ -206,3 +207,26 @@ if __name__ == "__main__":
     #     cp1 = objective_function(ti, *coeffs2)
     #     cp2 = polynomial_objective(ti, *coeffs4)
     #     print(f"{ti} : {100*(abs(cp1 - cp2)/cp1):.2f} %")
+
+    ts = np.linspace(200, 1000, 100)
+    csv_file = os.path.join(csv_path, "mixture_18377.csv")
+    
+    with open(csv_file, "w", newline="") as fp:
+        fp.write("T,Cp,Cv,gamma\n")
+        for ti in ts:
+            cps = []
+            for fluid in my_mixture:
+                a = get_Cp_coefficients(ti, fluid["nasa_coefficients"], fluid["name"], fluid["symbol"])
+                y = fluid["mole_fraction"]
+                cp = (nasa.molar_heat_capacity_at_constant_pressure(ti, a))
+                cps.append((cp, y))
+            cps = np.array(cps)
+            cp = sum(cps[:,0] * cps[:,1]) * R / MW
+            cv = cp - Rg
+            gamma= cp / cv
+            fp.write(f"{ti},{cp},{cv},{gamma}\n")
+
+    
+    Z, rho, w = eos.redlich_kwong(331, 8038847, ys, Tcs, Pcs, MWs, ws, Vcs, eos="aungier")
+    print(Z, rho, w)
+

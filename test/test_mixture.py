@@ -134,7 +134,7 @@ if __name__ == "__main__":
 
     print("Solving EoS")
     Z_mix, rho_mix, omega_mix = eos.peng_robinson(T, P, ys, Tcs, Pcs, Mws, ws)
-    print(f"\t{mixture.rhog = :.4f} : {rho_mix}")
+    print(f"\t{mixture.rhog = :.4f} : {rho_mix = :.4f}")
     print(f"\t{mixture.Zg = :.4f} : {Z_mix = :.4f}")
     print(f"\t{mixture.omega = :.4f} : {omega_mix = :.4f}")
 

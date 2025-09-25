@@ -183,9 +183,9 @@ class RealGas(PropertyForm):
     Tc: float
     Pc: float
     vc: float
-    Zg: float = 1.0
-    rhog: float = None
     w: float
+    rhog: float = None
+    Zg: float = 1.0
     __name: str = "Real Gas"
 
     @property
@@ -227,8 +227,8 @@ class Transport(PropertyForm):
         k (float): Thermanl conductivity in W/(m K)
         __name (str): Desribes how class will be represented in GUI from
     """
-    mu: float
-    k: float
+    mu: float = None
+    k: float = None
     __name = "Transport"
 
     @property

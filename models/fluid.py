@@ -137,8 +137,8 @@ class Chemical:
             if (k_ij := kwargs.get("k_ij")):
                 args.append(k_ij)
             Z, rho, w = fun(T, P, y, Tc, Pc, MW, w, *args)
-            return Z, rho, w
-        return compute[1]
+            return rho
+        return compute
     
     @property
     def Zg(self):
@@ -157,16 +157,16 @@ class Chemical:
             if (k_ij := kwargs.get("k_ij")):
                 args.append(k_ij)
             Z, rho, w = fun(T, P, y, Tc, Pc, MW, w, *args)
-            return Z, rho, w
-        return compute[0]
+            return Z
+        return compute
 
-    @T.seeter
+    @T.setter
     def T(self, T:float):
         if not isinstance(T, float | int):
             raise ValueError(f"Temperature must be float type. Given {type(T)}")
         self.__ref.Tref = T
 
-    @P.seeter
+    @P.setter
     def P(self, P:float):
         if not isinstance(P, float | int):
             raise ValueError(f"Pressure must be float type. Given {type(P)}")

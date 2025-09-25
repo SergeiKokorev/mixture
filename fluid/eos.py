@@ -36,7 +36,7 @@ def redlich_kwong(T: float, P: float, ys: List[float], Tcs: List[float], Pcs: Li
         ys list(float): mole fractions of all gases in the mixture
         Tcs (list(float)): critical temperature of all gases in the mixture in K
         Pcs (list(float)): critical pressure of all gases in the mixture in Pa
-        vcs (list(float)): critical tspecificmolar volume of all gases in the mixture in m^3 mol^-1. Optional. Default None. Needed only for Aungier and Soave EoS.
+        vcs (list(float)): critical specific molar volume of all gases in the mixture in m^3 mol^-1. Optional. Default None. Needed only for Aungier and Soave EoS.
         MWs (list(float): molecular weights of all gases in the mixture
         ws (list(float)): acentric factors of all gases in Mixture
         k_ij (list(float)): binary interaction parameters, optional. Defaul None, will be set to zero array
